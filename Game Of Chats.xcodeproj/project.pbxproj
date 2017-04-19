@@ -12,6 +12,7 @@
 		09520AFD1EA82546009D5CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09520AFB1EA82546009D5CBD /* Main.storyboard */; };
 		09520AFF1EA82546009D5CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09520AFE1EA82546009D5CBD /* Assets.xcassets */; };
 		09520B021EA82546009D5CBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09520B001EA82546009D5CBD /* LaunchScreen.storyboard */; };
+		09520B0B1EA826BD009D5CBD /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09520B0A1EA826BD009D5CBD /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		09520AFE1EA82546009D5CBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09520B011EA82546009D5CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09520B031EA82546009D5CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09520B0A1EA826BD009D5CBD /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		09520AF61EA82546009D5CBD /* Game Of Chats */ = {
 			isa = PBXGroup;
 			children = (
+				09520B091EA826A3009D5CBD /* Controller */,
 				09520AF71EA82546009D5CBD /* AppDelegate.swift */,
 				09520AF91EA82546009D5CBD /* ViewController.swift */,
 				09520AFB1EA82546009D5CBD /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				09520B031EA82546009D5CBD /* Info.plist */,
 			);
 			path = "Game Of Chats";
+			sourceTree = "<group>";
+		};
+		09520B091EA826A3009D5CBD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09520B0A1EA826BD009D5CBD /* LoginController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09520AFA1EA82546009D5CBD /* ViewController.swift in Sources */,
+				09520B0B1EA826BD009D5CBD /* LoginController.swift in Sources */,
 				09520AF81EA82546009D5CBD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
